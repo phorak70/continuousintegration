@@ -8,4 +8,4 @@ def Fibonacci(n):
     elif n == 1:
         return 1
     else:
-        return Fibonacci(n-1) + Fibonacci(n-2) + 1
+        return Fibonacci(n-1) + Fibonacci(n-2)
