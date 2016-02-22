@@ -7,10 +7,10 @@ class FibExceptions(unittest.TestCase):
 		assert fb.Fibonacci(5) == 5
 	
 	def test_Fibonacci_throws_exception(self):
-        import fibonacci as fb
-        self.assertRaises(ValueError, fb.Fibonacci, -5)
+		import fibonacci as fb
+		self.assertRaises(ValueError, fb.Fibonacci, -5)
 	
 	def test_Fibonacci_float_handling(self):
-        import fibonacci as fb
-        self.assertRaises(ValueError, fb.Fibonacci, 5.1)
+		import fibonacci as fb
+		self.assertRaises(ValueError, fb.Fibonacci, 5.1)
 	
