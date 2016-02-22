@@ -19,10 +19,9 @@ class FibExceptions(unittest.TestCase):
         to the Fibonacci function, it throws an exception.
         """
         import fibonacci as fb
-        self.assertRaises(ValueError, fb.Fibonacci, -5) 
-
-
-    def test_Fibonacci_float_handling(self):
+        self.assertRaises(ValueError, fb.Fibonacci, -5)
+	
+	def test_Fibonacci_float_handling(self):
         """
         Tests that input is an integer
         """
