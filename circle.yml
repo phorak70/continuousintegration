@@ -3,7 +3,7 @@ machine:
     Europe/London
   python:
     version: 3.5.0
-	
+
 dependencies:
   pre:
     - pip install pytest
@@ -11,4 +11,3 @@ dependencies:
 test:
   override:
     - py.test -v
-	
