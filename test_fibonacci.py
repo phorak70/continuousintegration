@@ -1,3 +1,5 @@
+import unittest
+
 class FibExceptions(unittest.TestCase):
 
     def test_fibonacci(self):
